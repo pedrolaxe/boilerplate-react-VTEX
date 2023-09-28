@@ -1,0 +1,28 @@
+{
+  "vendor": "VENDOR_NAME",
+  "name": "boilerplate-react-vtex",
+  "version": "0.0.0",
+  "title": "Boilerplate React VTEX",
+  "description": "React and SASS basic boilerplate for VTEX IO",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "styles": ">=2.x"
+  },
+  "dependencies": {
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.catalog-graphql": "1.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.device-detector": "0.x"
+  },
+  "peerDependencies": {
+    "vtex.store-locator": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
