@@ -2,6 +2,11 @@
 
 Este projeto serve como base para a criação de novos apps React VTEX IO.
 
+Tecnologias utilizadas
+- React
+- Sass
+- Husky
+
 ### Executando o projeto
 
 Para executar o projeto, e compilar o sass, basta executar os comandos abaixo:
